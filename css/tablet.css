@@ -1,11 +1,133 @@
 @media screen and (min-width:768px) {
-   .conteiner{
-    max-width: 768px;
-    padding-left: 16px;
-        padding-right: 16px;
-       
-   } 
-   .mobile-menu-open{
-    display: none;
+   .conteiner {
+      max-width: 768px;
+
+   }
+
+   .mobile-menu-open {
+      display: none;
+   }
+
+   .header-list {
+      display: flex;
+      gap: 40px;
+      align-items: center;
+
+   }
+
+   .form-conteiner {
+
+      margin-left: 80px;
+
+   }
+
+   .form-input {
+      width: 264px;
+      margin-right: 24px;
+   }
+
+   /* derection */
+   .section-derection {
+      display: none;
+   }
+
+   /* hero */
+   .hero {
+      background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url('../images/people-office-tblt.jpg');
+
+   }
+
+   /* modal */
+   .modal {
+      width: 408px;
+   }
+
+}
+
+/* hero */
+@media screen and (min-device-pixel-ratio: 2) and (min-width:768px),
+screen and (min-resolution: 192dpi) and (min-width:768px),
+screen and (min-resolution: 2dppx) and (min-width:768px) {
+   .hero {
+      background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url('../images/people-office-tblt@2x.jpg');
+   }
+}
+
+@media screen and (min-width:768px) and (max-width:1199px) {
+   .address {
+      display: block;
+   }
+
+   .page-address-conteiner {
+      display: block;
+   }
+
+
+   .contacts-mail-link {
+      margin-top: -12px;
+      margin-bottom: 12px;
+      font-size: 12px;
+
+   }
+
+   .contacts-tel-link {
+      font-size: 12px;
+      margin-bottom: -12px;
+   }
+
+   .svg-conteiner {
+      display: none;
+   }
+
+   .section-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 72px 24px;
+
+   }
+
+   .advantages-list {
+      width: calc((100% - 24px)/2);
+   }
+
+   .customers-conteiner {
+      padding: 0;
+   }
+
+   .list-customers {
+      width: 552px;
+
+      flex-wrap: wrap;
+
+      row-gap: 72px;
+      column-gap: 24px;
+      margin: 0 auto;
+
+   }
+
+   .footer-conteiner {
+      margin-right: 24px;
+   }
+
+   .footer-tabtet-conteiner {
+      display: flex;
+      width: 565px;
+      margin: 0 auto;
+      margin-bottom: 72px;
+   }
+
+   /* our team */
+   .bgr-color {
+      margin-bottom: 64px;
+      flex-basis: calc((100% - 24px) / 2)
+   }
+
+   .team-section {
+      width: 552px;
+      margin: 0 auto;
+   }
+
+   .mobile-menu {
+      display: none;
    }
 }
