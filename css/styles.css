@@ -103,7 +103,7 @@ img {
 
 .first-logo,
 .current {
-    color: var(--accent-color);
+    color: var(--second-accent-color);
 
 }
 

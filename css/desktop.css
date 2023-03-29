@@ -22,6 +22,12 @@
     .text-list{
         font-weight: 400; 
     }
+    .advantages-list{
+        width: 264px;
+    }
+    .advantages-bottom{
+        padding-bottom: 0;
+    }
 
     /* our team */
 
