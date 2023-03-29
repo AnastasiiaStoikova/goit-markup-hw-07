@@ -251,11 +251,13 @@ img {
 .title-list {
     font-weight: 700;
     font-size: 36px;
-
+    margin-bottom: 8px;
     line-height: 1.1;
     color: var(--title-text-color);
 }
-
+.team-title-list{
+    font-size: 20px;
+}
 .text-list {
     font-weight: 500;
     color: var(--primery-text-color);
@@ -288,9 +290,6 @@ img {
 
 }
 
-.title-list {
-    margin-bottom: 8px;
-}
 
 .team-list {
     display: flex;
