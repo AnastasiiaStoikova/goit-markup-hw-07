@@ -94,6 +94,10 @@ screen and (min-resolution: 2dppx) and (min-width:768px) {
       width: calc((100% - 24px)/2);
    }
 /* -------svg-------- */
+.customers-section{
+   padding-top: 96px;
+    padding-bottom: 96px;
+}
    .customers-conteiner {
       padding: 0;
    }
@@ -119,6 +123,7 @@ screen and (min-resolution: 2dppx) and (min-width:768px) {
       margin: 0 auto;
       margin-bottom: 72px;
    }
+  
 
    /* our team */
  

@@ -10,8 +10,7 @@
 
     .form-input {
         width: 100%;
-        margin-bottom: 16px;
-        margin-right: 0;
+        
     }
     .form-input-item{
         display: block;
@@ -103,10 +102,7 @@ screen and (min-resolution: 2dppx) and (max-width:767px) {
     }
 
     /* footer */
-    .footer {
-        padding-top: 96px;
-        padding-bottom: 96px;
-    }
+  
 
     .footer-conteiner {
         margin: 0 80px;
@@ -128,10 +124,13 @@ screen and (min-resolution: 2dppx) and (max-width:767px) {
         margin: 0 auto;
 
     }
-
+    .form-input{
+        margin-bottom: 16px;
+        margin-right: 0;
+       }
     .social-section {
 
-        margin: 0 110px;
+    
         margin-bottom: 72px;
     }
 
@@ -266,6 +265,5 @@ screen and (min-resolution: 2dppx) and (max-width:767px) {
         gap: 54px;
     }
 }
-@media screen and (max-wigth:479px){
-}
+
 
