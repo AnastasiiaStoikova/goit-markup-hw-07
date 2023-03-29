@@ -36,7 +36,11 @@
       background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url('../images/people-office-tblt.jpg');
 
    }
-
+   .hero-title{
+   margin-bottom: 36px;
+   font-size: 56px;
+   line-height: 1.2;
+max-width: 496px;}
    /* modal */
    .modal {
       width: 408px;
@@ -78,18 +82,18 @@ screen and (min-resolution: 2dppx) and (min-width:768px) {
    .svg-conteiner {
       display: none;
    }
-
+   /* Advantages */
    .section-list {
       display: flex;
       flex-wrap: wrap;
-      gap: 72px 24px;
-
+      row-gap: 72px;
+      column-gap: 24px;
    }
 
    .advantages-list {
       width: calc((100% - 24px)/2);
    }
-
+/* -------svg-------- */
    .customers-conteiner {
       padding: 0;
    }
@@ -104,7 +108,7 @@ screen and (min-resolution: 2dppx) and (min-width:768px) {
       margin: 0 auto;
 
    }
-
+/* footer */
    .footer-conteiner {
       margin-right: 24px;
    }

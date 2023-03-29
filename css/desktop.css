@@ -8,7 +8,20 @@
         gap: 40px;
 
     }
-
+    /* Advantages */
+    .section {
+        padding-top: 120px;
+        padding-bottom: 120px;
+    
+    }
+    .title-list {
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 1.1;
+    }
+    .text-list{
+        font-weight: 400; 
+    }
     .svg-conteiner {
 
         padding: 0;
@@ -27,10 +40,7 @@
         gap: 24px;
     }
 
-    .title-list {
-        font-size: 20px;
-        font-weight: 400;
-    }
+    
 
     .list-customers {
 
@@ -71,8 +81,14 @@
     /* hero */
     .hero {
         background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url('../images/people-office-dsktp.jpg');
+        padding-top: 188px;
+        padding-bottom: 188px
     }
-
+    .hero-title{
+    margin-bottom: 48px;
+   
+    
+    }
 }
 
 /* hero */
