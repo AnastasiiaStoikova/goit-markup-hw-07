@@ -266,6 +266,19 @@ screen and (min-resolution: 2dppx) and (max-width:767px) {
     .list-svg-menu {
         gap: 54px;
     }
+
+    /* PORTFOLIO */
+
+    /* navigator filter */
+.filter-list{
+    /* flex-wrap: wrap;
+    justify-content: flex-start; */
+
+}
+.section-portfolio{
+    padding-top: 48px;
+    padding-bottom: 48px;
 }
 
 
+}

@@ -75,6 +75,7 @@ img {
     display: flex;
     align-items: center;
     justify-content: space-between;
+ 
 }
 
 
@@ -514,11 +515,20 @@ img {
 
 .filter-list {
     display: flex;
-    margin-bottom: 72px;
+    
+    /* margin-bottom: 72px; */
+    justify-content: flex-start;
+    /* gap: 24px; */
+} 
+.filter-list-button{
+    display: flex;
     justify-content: center;
+    column-gap: 24px;
+    margin-bottom: 16px;
+}
+.filter-list-btn{
+    margin-bottom: 48px;
     gap: 24px;
-
-
 }
 
 
@@ -563,7 +573,7 @@ img {
     display: flex;
     flex-wrap: wrap;
     gap: 48px;
-    column-gap: 24px;
+    /* column-gap: 24px; */
 }
 
 .link-wrapper-overley {
@@ -586,11 +596,20 @@ img {
     padding: 40px 32px 164px;
 }
 
+.wrapper-list{
+    margin-bottom: 8px;
+    
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2; 
+    text-align: start;
+    color: var(--title-text-color);  
+}
 
 .link-wrapper {
     display: block;
     transition: box-shadow var(--o-transition);
-
+margin: 0 auto;
 }
 
 .link-wrapper:hover .overley,

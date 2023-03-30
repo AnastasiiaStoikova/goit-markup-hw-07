@@ -106,6 +106,21 @@
    
     
     }
+
+/* modal */
+.modal {
+    height: 584px;
+}
+
+
+      /* PORTFOLIO */
+
+    /* navigator filter */
+
+    .section-portfolio{
+        padding-top: 100px;
+        padding-bottom: 120px;
+    }
 }
 
 /* hero */
@@ -117,7 +132,3 @@ screen and (min-resolution: 2dppx) and (min-width:1200px) {
     }
 }
 
-/* modal */
-.modal {
-    height: 584px;
-}
