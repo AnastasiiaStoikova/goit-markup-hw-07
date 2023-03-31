@@ -15,6 +15,7 @@
 
    }
 
+
    .form-conteiner {
 
       margin-left: 80px;
@@ -207,7 +208,7 @@ screen and (min-resolution: 2dppx) and (min-width:768px) {
       padding-bottom: 96px;
    }
 
-   .current::after {
-      margin-top: 33px;
-   }
+ 
+
+
 }

@@ -9,6 +9,10 @@
 
     }
 
+    .current-portfolio::after{
+        margin-top: 21px;
+    }
+
     /* Advantages */
     .section {
         padding-top: 120px;
@@ -123,7 +127,7 @@
     /* navigator filter */
 
     .section-portfolio {
-        padding-top: 100px;
+        padding-top: 96px;
         padding-bottom: 120px;
     }
 
