@@ -50,12 +50,6 @@ screen and (min-resolution: 2dppx) and (max-width:767px) {
         display: none;
     }
 
-    .mobile-menu-open {
-        background-color: transparent;
-        padding: 0;
-        border: 0;
-        line-height: 0;
-    }
 
     .svg-conteiner {
         display: none;
@@ -198,6 +192,14 @@ screen and (min-resolution: 2dppx) and (max-width:767px) {
 
     }
 
+    .mobile-menu-open {
+        background-color: transparent;
+        padding: 0;
+        border: 0;
+        line-height: 0;
+        cursor: pointer;
+    }
+
     .mobile-menu-close-btn {
         position: absolute;
         display: flex;
@@ -211,6 +213,7 @@ screen and (min-resolution: 2dppx) and (max-width:767px) {
         color: #2E2F42;
         border-radius: 50%;
         border: 1px solid rgba(0, 0, 0, 0.1);
+        cursor: pointer;
     }
 
     .social-menu {
