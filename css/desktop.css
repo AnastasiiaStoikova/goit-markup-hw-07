@@ -116,10 +116,6 @@
 
     }
 
-    /* modal */
-    .modal {
-        height: 584px;
-    }
 
 
     /* PORTFOLIO */
@@ -131,7 +127,9 @@
         padding-bottom: 120px;
     }
 
-
+    .cards-wrapper {
+        row-gap: 48px;
+    }
 
 
 
