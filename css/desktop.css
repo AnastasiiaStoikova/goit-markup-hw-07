@@ -8,33 +8,39 @@
         gap: 40px;
 
     }
+
     /* Advantages */
     .section {
         padding-top: 120px;
         padding-bottom: 120px;
-    
+
     }
+
     .title-list {
         font-size: 20px;
         font-weight: 500;
         line-height: 1.1;
     }
-    .text-list{
-        font-weight: 400; 
+
+    .text-list {
+        font-weight: 400;
     }
-    .advantages-list{
+
+    .advantages-list {
         width: 264px;
     }
-    .advantages-bottom{
+
+    .advantages-bottom {
         padding-bottom: 0;
     }
 
     /* our team */
 
-    .team-section{
+    .team-section {
         display: flex;
-        gap:24px;
+        gap: 24px;
     }
+
     .svg-conteiner {
 
         padding: 0;
@@ -53,7 +59,7 @@
         gap: 24px;
     }
 
-    
+
 
     .list-customers {
 
@@ -61,11 +67,13 @@
         padding: 0px;
         gap: 24px;
     }
-/* footer */
-.footer{
-    padding-top: 100px;
-    padding-bottom: 100px;   
-}
+
+    /* footer */
+    .footer {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+
     .footer-tabtet-conteiner {
         display: flex;
     }
@@ -101,30 +109,31 @@
         padding-top: 188px;
         padding-bottom: 188px
     }
-    .hero-title{
-    margin-bottom: 48px;
-   
-    
+
+    .hero-title {
+        margin-bottom: 48px;
+
+
     }
 
-/* modal */
-.modal {
-    height: 584px;
-}
+    /* modal */
+    .modal {
+        height: 584px;
+    }
 
 
-      /* PORTFOLIO */
+    /* PORTFOLIO */
 
     /* navigator filter */
 
-    .section-portfolio{
+    .section-portfolio {
         padding-top: 100px;
         padding-bottom: 120px;
     }
 
 
 
-    
+
 
 }
 
@@ -136,4 +145,3 @@ screen and (min-resolution: 2dppx) and (min-width:1200px) {
         background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url('../images/people-office-dsktp@2x.jpg');
     }
 }
-

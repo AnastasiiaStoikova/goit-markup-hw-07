@@ -10,9 +10,10 @@
 
     .form-input {
         width: 100%;
-        
+
     }
-    .form-input-item{
+
+    .form-input-item {
         display: block;
     }
 
@@ -24,9 +25,10 @@
     .modal-checkbox {
         font-size: 12px;
     }
+
     /* hero */
- 
-    
+
+
 }
 
 /* hero */
@@ -62,6 +64,7 @@ screen and (min-resolution: 2dppx) and (max-width:767px) {
     .section-list {
         display: block;
     }
+
     /* --Advantages -- */
     .advantages-list:not(:last-child) {
         margin-bottom: 72px;
@@ -102,10 +105,10 @@ screen and (min-resolution: 2dppx) and (max-width:767px) {
     }
 
     /* footer */
-  
+
 
     .footer-conteiner {
-    
+
         margin-bottom: 72px;
     }
 
@@ -124,13 +127,15 @@ screen and (min-resolution: 2dppx) and (max-width:767px) {
         margin: 0 auto;
 
     }
-    .form-input{
+
+    .form-input {
         margin-bottom: 16px;
         margin-right: 0;
-       }
+    }
+
     .social-section {
 
-    
+
         margin-bottom: 72px;
     }
 
@@ -140,7 +145,7 @@ screen and (min-resolution: 2dppx) and (max-width:767px) {
         text-align: center;
     }
 
-    
+
 
     .form-btn {
         margin: 0 auto;
@@ -150,7 +155,7 @@ screen and (min-resolution: 2dppx) and (max-width:767px) {
 
 
 
-/* mobile-menu */
+    /* mobile-menu */
 
 
     .mobile-menu {
@@ -159,7 +164,7 @@ screen and (min-resolution: 2dppx) and (max-width:767px) {
 
         height: 100%;
         max-height: 100vh;
-      
+
         z-index: 1000;
         top: 0;
         left: 0;
@@ -172,7 +177,7 @@ screen and (min-resolution: 2dppx) and (max-width:767px) {
         pointer-events: none;
 
         transition: opacity var(--o-transition),
-        visibility var(--o-transition);
+            visibility var(--o-transition);
         transition: transform 250ms ease-in-out;
     }
 
@@ -271,15 +276,16 @@ screen and (min-resolution: 2dppx) and (max-width:767px) {
 
     /* navigator filter */
 
-.filter-btn{
-    margin-right: 24px;
-}
-.border{
-    overflow-wrap: break-word;
-}
+    .filter-btn {
+        margin-right: 24px;
+    }
+
+    .border {
+        overflow-wrap: break-word;
+    }
 
 
-.filter-item-button{
-    margin-right: 0;
-}
+    .filter-item-button {
+        margin-right: 0;
+    }
 }

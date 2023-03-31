@@ -36,46 +36,57 @@
       background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url('../images/people-office-tblt.jpg');
 
    }
-   .hero-title{
-   margin-bottom: 36px;
-   font-size: 56px;
-   line-height: 1.2;
-max-width: 496px;}
+
+   .hero-title {
+      margin-bottom: 36px;
+      font-size: 56px;
+      line-height: 1.2;
+      max-width: 496px;
+   }
+
    /* modal */
    .modal {
       width: 408px;
    }
 
-   .cards-wrapper{
+   .cards-wrapper {
       row-gap: 72px;
       column-gap: 24px;
    }
-   .img-item{
+
+   .img-item {
       width: 356px;
       height: 300px;
    }
-  .filter-list-button{
-   display: flex;
-  }
-  .button-item{
-   gap:24px;
-  }
-  .button-item-list{
-  margin-right: 24px;
-  }
-  .filter-list-button{
-   margin-bottom: 64px;
-  }
-  .filter-list-btn{
-   margin-bottom: 0;
-  }
-  .footer-section{
-   align-items: flex-start;
-  }
-  .footer-cont-item{
-   padding-left: 0;
-   padding-right: 0;
-  }
+
+   .filter-list-button {
+      display: flex;
+   }
+
+   .button-item {
+      gap: 24px;
+   }
+
+   .button-item-list {
+      margin-right: 24px;
+   }
+
+   .filter-list-button {
+      margin-bottom: 64px;
+   }
+
+   .filter-list-btn {
+      margin-bottom: 0;
+   }
+
+   .footer-section {
+      align-items: flex-start;
+   }
+
+   .footer-cont-item {
+      padding-left: 0;
+      padding-right: 0;
+   }
 }
 
 /* hero */
@@ -112,6 +123,7 @@ screen and (min-resolution: 2dppx) and (min-width:768px) {
    .svg-conteiner {
       display: none;
    }
+
    /* Advantages */
    .section-list {
       display: flex;
@@ -123,11 +135,13 @@ screen and (min-resolution: 2dppx) and (min-width:768px) {
    .advantages-list {
       width: calc((100% - 24px)/2);
    }
-/* -------svg-------- */
-.customers-section{
-   padding-top: 96px;
-    padding-bottom: 96px;
-}
+
+   /* -------svg-------- */
+   .customers-section {
+      padding-top: 96px;
+      padding-bottom: 96px;
+   }
+
    .customers-conteiner {
       padding: 0;
    }
@@ -142,7 +156,8 @@ screen and (min-resolution: 2dppx) and (min-width:768px) {
       margin: 0 auto;
 
    }
-/* footer */
+
+   /* footer */
    .footer-conteiner {
       margin: 0;
       margin-right: 24px;
@@ -154,13 +169,14 @@ screen and (min-resolution: 2dppx) and (min-width:768px) {
       margin: 0 auto;
       margin-bottom: 72px;
    }
-  .socil-section{
-   padding: 0;
-   margin: 0;
-  }
+
+   .socil-section {
+      padding: 0;
+      margin: 0;
+   }
 
    /* our team */
- 
+
    .team-section {
       width: 552px;
       margin: 0 auto;
@@ -171,32 +187,27 @@ screen and (min-resolution: 2dppx) and (min-width:768px) {
    }
 
 
-  
+
    .mobile-menu {
       display: none;
    }
 
 
-      /* PORTFOLIO */
+   /* PORTFOLIO */
 
-    /* navigator filter */
-    .filter-list{
+   /* navigator filter */
+   .filter-list {
       flex-wrap: wrap;
       justify-content: flex-start;
-  
-  }
-  .section-portfolio{
+
+   }
+
+   .section-portfolio {
       padding-top: 64px;
       padding-bottom: 96px;
-  }
+   }
 
-  .current::after{
-  margin-top: 33px;
-  }
+   .current::after {
+      margin-top: 33px;
+   }
 }
-
-
-
- 
-  
-  
