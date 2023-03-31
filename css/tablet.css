@@ -46,6 +46,36 @@ max-width: 496px;}
       width: 408px;
    }
 
+   .cards-wrapper{
+      row-gap: 72px;
+      column-gap: 24px;
+   }
+   .img-item{
+      width: 356px;
+      height: 300px;
+   }
+  .filter-list-button{
+   display: flex;
+  }
+  .button-item{
+   gap:24px;
+  }
+  .button-item-list{
+  margin-right: 24px;
+  }
+  .filter-list-button{
+   margin-bottom: 64px;
+  }
+  .filter-list-btn{
+   margin-bottom: 0;
+  }
+  .footer-section{
+   align-items: flex-start;
+  }
+  .footer-cont-item{
+   padding-left: 0;
+   padding-right: 0;
+  }
 }
 
 /* hero */
@@ -114,6 +144,7 @@ screen and (min-resolution: 2dppx) and (min-width:768px) {
    }
 /* footer */
    .footer-conteiner {
+      margin: 0;
       margin-right: 24px;
    }
 
@@ -123,7 +154,10 @@ screen and (min-resolution: 2dppx) and (min-width:768px) {
       margin: 0 auto;
       margin-bottom: 72px;
    }
-  
+  .socil-section{
+   padding: 0;
+   margin: 0;
+  }
 
    /* our team */
  
@@ -154,6 +188,10 @@ screen and (min-resolution: 2dppx) and (min-width:768px) {
   .section-portfolio{
       padding-top: 64px;
       padding-bottom: 96px;
+  }
+
+  .current::after{
+  margin-top: 33px;
   }
 }
 

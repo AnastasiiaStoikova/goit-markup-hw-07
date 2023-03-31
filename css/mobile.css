@@ -105,7 +105,7 @@ screen and (min-resolution: 2dppx) and (max-width:767px) {
   
 
     .footer-conteiner {
-        margin: 0 80px;
+    
         margin-bottom: 72px;
     }
 
@@ -159,7 +159,7 @@ screen and (min-resolution: 2dppx) and (max-width:767px) {
 
         height: 100%;
         max-height: 100vh;
-        overflow-y: scroll;
+      
         z-index: 1000;
         top: 0;
         left: 0;
@@ -270,15 +270,16 @@ screen and (min-resolution: 2dppx) and (max-width:767px) {
     /* PORTFOLIO */
 
     /* navigator filter */
-.filter-list{
-    /* flex-wrap: wrap;
-    justify-content: flex-start; */
 
+.filter-btn{
+    margin-right: 24px;
 }
-.section-portfolio{
-    padding-top: 48px;
-    padding-bottom: 48px;
+.border{
+    overflow-wrap: break-word;
 }
 
 
+.filter-item-button{
+    margin-right: 0;
+}
 }
