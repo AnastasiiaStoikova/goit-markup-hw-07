@@ -172,7 +172,8 @@ screen and (min-resolution: 2dppx) and (max-width:767px) {
 
         transition: opacity var(--o-transition),
             visibility var(--o-transition);
-        transition: transform 250ms ease-in-out;
+        
+    
     }
 
     .mobile-menu.is-open {
